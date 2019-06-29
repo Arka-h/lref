@@ -1,0 +1,31 @@
+/*
+ol li{
+	all that follow this rule
+}
+ol>li{
+	just the immediate li's of ol
+}
+input[type=text]
+{
+
+}
+button{
+
+}
+button:hover {
+
+}
+a::before{//a::after{//p::selection{
+	content: "\21d2 prepended info"; --->\21d2 hex value for a unicode symbol
+	font-weight:;
+	bla bla
+	}
+@media : print{
+	.class{
+	styling//display="none"
+	}
+}
+*/
+input [type="text"]{
+	
+}

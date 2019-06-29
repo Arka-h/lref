@@ -1,0 +1,7 @@
+name|'links'
+htmlname|'Links'
+title|'LINKS TO REFER'
+icon|f'{directory}/images/link-icon.png'
+css|f'{directory}/static/links.css'
+heading|'These are some links to refer...'
+footer_h|'LEARN'

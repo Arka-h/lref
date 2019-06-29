@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% block head %}{% endblock %}
+</head>
+<body>
+<div class = "available">		
+    {% block heading %}{% endblock %}
+<table width="100%"><!-- Add a page preview on rollover//thumbnail type  -->
+	{% block main %}{% endblock %}
+</table>
+</div>
+<div class="to-get">
+	<table id="footer" align="center">
+		{% block footer_head %}{% endblock %}
+		{% block footer %}{% endblock %}
+	</table>
+</div>
+</body>
+</html>

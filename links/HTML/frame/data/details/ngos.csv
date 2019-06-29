@@ -1,0 +1,7 @@
+name|'ngos'
+htmlname|'NGOs'
+title|'NGOs in INDIA and related info links'
+icon|f'{directory}/images/ngo2.png'
+css|f'{directory}/static/ngo.css'
+heading|'These are some links related to NGOs...'
+footer_h|'Footer'

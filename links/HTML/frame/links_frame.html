@@ -1,0 +1,76 @@
+{% extends 'templates/link_store_template.html' %} {# avoid spelling mistakes #}
+
+{% block head %}
+	<title>{{ title }}</title>
+	<link rel="icon" type="image/ico" href="{{ icon }}"> {# added new #}
+	<link rel="stylesheet" type="text/css" href= "{{ css }}">
+{% endblock %}
+
+{% block heading %}
+	<h1>
+    	<sup>
+    		<img src="../images/link-icon.png" height="10px">
+    	</sup>
+    	{{ heading }}
+    </h1>
+{% endblock %}
+<table width="100%"> <!--change to 100% later-->
+<!-- Add a page preview on rollover//thumbnail type  -->
+{% block main %}
+
+{% for number,link,text in lists %}
+	<tr>
+		<td>{{ number }}</td>
+		<td>
+			<a href= "{{ link }}">
+			{{ text }}
+			</a>
+		</td>
+	</tr>
+{% endfor %}
+
+{% endblock %}
+{# make better footer templates using new tools #}
+{% block footer_head %}
+	<tr>
+		<th align="left">
+			<u>
+				{{ footer_heading }}
+			</u>
+		</th>
+	</tr>
+{% endblock %}
+{% block footer %}
+	{% for item in footer_text %}
+		<tr>
+			<td>
+				{{ item }}
+			</td>
+		</tr>
+	{% endfor %}
+{% endblock %}
+</body>
+</html>
+<# Total variables provided : 8
+	* title  	--links to refer
+	* css	 	--first-css.css
+	* heading	--These are some links to refer
+	* number	--iter |
+	* link		--iter |	lists
+	* text		--iter |
+	* footer_heading 
+	* footer_text	--iter | footer
+#>
+
+
+
+
+
+
+
+
+
+
+
+
+
