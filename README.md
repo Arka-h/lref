@@ -18,7 +18,7 @@ HERE IS A SNAPSHOT:
 <link rel="stylesheet" type="text/css" href= "https://github.com/Arka-h/lref/blob/master/links/static/links.css">
 <head>
 	<sup>
-		<img src="https://github.com/Arka-h/lref/master/links/images/link-icon.png" height="10px">
+		<img src="https://github.com/Arka-h/lref/links/HTML/images/link-icon.png" height="10px">
 	</sup>
 	<h1>These are some links to refer...</h1>
 </h1>
